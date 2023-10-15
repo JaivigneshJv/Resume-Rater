@@ -33,4 +33,4 @@ def rate_resume():
                    {"info": info})
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="192.168.0.101", port=8005, debug=True, threaded=True)
